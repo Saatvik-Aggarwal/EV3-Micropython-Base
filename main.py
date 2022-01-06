@@ -7,6 +7,8 @@ from pybricks.tools import wait, StopWatch, DataLog
 from pybricks.robotics import DriveBase
 from pybricks.media.ev3dev import SoundFile, ImageFile
 
+import challengeTemplate
+
 # Use the following links to access the documentation
 # How to control the EV3: https://docs.pybricks.com/en/v2.0/hubs.html#pybricks.hubs.EV3Brick
 # How to control the robot: https://docs.pybricks.com/en/v2.0/ev3devices.html
@@ -40,4 +42,5 @@ ev3.speaker.beep()
 robot.turn(-360)
 ev3.speaker.beep()
 
+challengeTemplate.doChallenge(robot)
 # --- End Example Program ---

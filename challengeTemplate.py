@@ -16,5 +16,6 @@ def run(robot):
     robot.straight(500)
     robot.turn(90)
     robot.straight(500)
+    robot.turn(90)
 
 

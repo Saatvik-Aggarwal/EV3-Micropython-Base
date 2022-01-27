@@ -7,7 +7,7 @@ from pybricks.tools import wait, StopWatch, DataLog
 from pybricks.robotics import DriveBase
 from pybricks.media.ev3dev import SoundFile, ImageFile
 
-def doChallenge(robot):
+def run(robot):
     # travel in a square
     robot.straight(500)
     robot.turn(90)

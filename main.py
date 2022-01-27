@@ -42,5 +42,5 @@ ev3.speaker.beep()
 robot.turn(-360)
 ev3.speaker.beep()
 
-challengeTemplate.doChallenge(robot)
+challengeTemplate.run(robot)
 # --- End Example Program ---
